@@ -36,7 +36,12 @@
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
-                        &nbsp;
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Show Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="upload">Upload Image</a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

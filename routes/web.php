@@ -18,3 +18,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::view('/upload', 'uploadimage')->middleware('auth');
+Route::post('/upload', 'GalleryController@uploadImage')->middleware('auth');
