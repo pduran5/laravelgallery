@@ -21,3 +21,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::view('/upload', 'uploadimage')->middleware('auth');
 Route::post('/upload', 'GalleryController@uploadImage')->middleware('auth');
+
+Route::get('/show', 'GalleryController@show')->middleware('auth');
