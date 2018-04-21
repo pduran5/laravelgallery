@@ -50,8 +50,8 @@ $app->singleton(
 |
 */
 
-$app->register(Artisaninweb\SoapWrapper\ServiceProvider::class);
-class_alias('Artisaninweb\SoapWrapper\Facade', 'SoapWrapper');
+// $app->register(Artisaninweb\SoapWrapper\ServiceProvider::class);
+// class_alias('Artisaninweb\SoapWrapper\Facade', 'SoapWrapper');
 
 /*
 |--------------------------------------------------------------------------
