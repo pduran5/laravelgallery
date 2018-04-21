@@ -43,6 +43,18 @@ $app->singleton(
 
 /*
 |--------------------------------------------------------------------------
+| Laravel SOAPClient Wrapper - Lumen
+|--------------------------------------------------------------------------
+|
+| Register service provider and class alias
+|
+*/
+
+$app->register(Artisaninweb\SoapWrapper\ServiceProvider::class);
+class_alias('Artisaninweb\SoapWrapper\Facade', 'SoapWrapper');
+
+/*
+|--------------------------------------------------------------------------
 | Return The Application
 |--------------------------------------------------------------------------
 |
