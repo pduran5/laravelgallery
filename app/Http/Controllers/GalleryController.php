@@ -16,10 +16,10 @@ class GalleryController extends Controller
         // $data = $request->image->storeAs('images', $request->image->getClientOriginalName());
         $data = $request->file('image')->store('images');
 
-        // $image = new Image;
-        // $image->filename = $data;
-        // $image->original = $request->image->getClientOriginalName();
-        // $image->save();
+        $image = new Image;
+        $image->filename = $data;
+        $image->original = $request->image->getClientOriginalName();
+        $image->save();
 
         return back()->with('success', 'Image Upload successful');
     }
