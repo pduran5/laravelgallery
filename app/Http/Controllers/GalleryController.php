@@ -30,7 +30,6 @@ class GalleryController extends Controller
     {
         $id_user = Auth::user()->id;
         $images = Image::where('id_users', $id_user)->get();
-        //dd($images);
         return view('show', ['images' => $images]);
     }
 }
