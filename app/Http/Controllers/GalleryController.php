@@ -19,6 +19,7 @@ class GalleryController extends Controller
         $image = new Image;
         $image->filename = $data;
         $image->original = $request->image->getClientOriginalName();
+        $image->id_users = $request->user()->id;
         $image->save();
 
         return back()->with('success', 'Image Upload successful');

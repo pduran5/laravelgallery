@@ -17,6 +17,10 @@ class CreateImagesTable extends Migration
             $table->increments('id');
             $table->string('filename');
             $table->string('original');
+
+            // FK
+            $table->integer('id_users')->unsigned();
+            $table->foreign('id_users')->references('id')->on('users');
             $table->timestamps();
         });
     }
