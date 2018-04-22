@@ -307,6 +307,13 @@ class ComposerStaticInite5d0c30dc413fc13e389e7cac8fe0f6d
                 0 => __DIR__ . '/..' . '/doctrine/lexer/lib',
             ),
         ),
+        'A' => 
+        array (
+            'Artisaninweb\\SoapWrapper' => 
+            array (
+                0 => __DIR__ . '/..' . '/artisaninweb/laravel-soap/src',
+            ),
+        ),
     );
 
     public static $classMap = array (
@@ -333,6 +340,14 @@ class ComposerStaticInite5d0c30dc413fc13e389e7cac8fe0f6d
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'ArithmeticError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
+        'Artisaninweb\\SoapWrapper\\Client' => __DIR__ . '/..' . '/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/Client.php',
+        'Artisaninweb\\SoapWrapper\\Exceptions\\ServiceAlreadyExists' => __DIR__ . '/..' . '/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/Exceptions/ServiceAlreadyExists.php',
+        'Artisaninweb\\SoapWrapper\\Exceptions\\ServiceMethodNotExists' => __DIR__ . '/..' . '/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/Exceptions/ServiceMethodNotExists.php',
+        'Artisaninweb\\SoapWrapper\\Exceptions\\ServiceNotFound' => __DIR__ . '/..' . '/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/Exceptions/ServiceNotFound.php',
+        'Artisaninweb\\SoapWrapper\\Facade' => __DIR__ . '/..' . '/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/Facade.php',
+        'Artisaninweb\\SoapWrapper\\Service' => __DIR__ . '/..' . '/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/Service.php',
+        'Artisaninweb\\SoapWrapper\\ServiceProvider' => __DIR__ . '/..' . '/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/ServiceProvider.php',
+        'Artisaninweb\\SoapWrapper\\SoapWrapper' => __DIR__ . '/..' . '/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/SoapWrapper.php',
         'AssertionError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonInterval' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
