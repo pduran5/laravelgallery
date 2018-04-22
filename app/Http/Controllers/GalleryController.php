@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Image;
+use Auth;
 
 class GalleryController extends Controller
 {
@@ -27,7 +28,9 @@ class GalleryController extends Controller
 
     public function show()
     {
-        $images = Image::all();
+        $id_user = Auth::user()->id;
+        $images = Image::where('id_users', $id_user)->get();
+        //dd($images);
         return view('show', ['images' => $images]);
     }
 }

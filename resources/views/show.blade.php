@@ -10,12 +10,10 @@
                 <div class="panel-body">
                     <ul>
                     @foreach($images as $image)
-                    @if($image->id_users == Auth::id())
                     <li>
                             <p>{{ $image->original }}</p>
                             <img width="300px" src="storage/{{ $image->filename }}" />
                     </li>
-                    @endif
                     <br>
                     @endforeach
                     </ul>
