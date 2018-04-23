@@ -15,12 +15,6 @@
                     @endif
 
                     <p>You are logged in!</p>
-                    <p>Remember, the continents are:</p>
-                    <ul>
-                    @foreach($continents as $continent)
-                    <li>{{ $continent }}</li>
-                    @endforeach
-                    </ul>
                 </div>
             </div>
         </div>
